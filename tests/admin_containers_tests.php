@@ -19,7 +19,7 @@ class AdminContainersTests extends GroupTest {
 
 if (!defined('TEST_RUNNING')) {
     define('TEST_RUNNING', true);
-    $test = &new AdminContainersTests();
+    $test = new AdminContainersTests();
     $test->run(new HtmlReporter());
 }
 ?>

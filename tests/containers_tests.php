@@ -18,7 +18,7 @@ class ContainersTests extends GroupTest {
 
 if (!defined('TEST_RUNNING')) {
     define('TEST_RUNNING', true);
-    $test = &new ContainersTests();
+    $test = new ContainersTests();
     $test->run(new HtmlReporter());
 }
 ?>

@@ -18,6 +18,6 @@ class AllTests extends GroupTest {
     }
 }
 
-$test = &new AllTests();
+$test = new AllTests();
 $test->run(new HtmlReporter());
 ?>

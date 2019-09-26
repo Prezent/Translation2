@@ -17,7 +17,7 @@ $langs = $tr->getLangs('ids');
 $days  = array();
 $months= array();
 
-$lc = &new I18Nv2_Locale;
+$lc = new I18Nv2_Locale;
 
 foreach ($langs as $lang) {
     $lc->setLocale($lang);

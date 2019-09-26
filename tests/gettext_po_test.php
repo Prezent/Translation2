@@ -80,7 +80,7 @@ class TestOfGettextPO extends TestOfContainerDB {
 
 if (!defined('TEST_RUNNING')) {
     define('TEST_RUNNING', true);
-    $test = &new TestOfGettextPO();
+    $test = new TestOfGettextPO();
     $test->run(new HtmlReporter());
 }
 ?>

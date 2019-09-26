@@ -63,7 +63,7 @@ $keyAttr = array(
     'string' => 'key',
     'tr'     => 'lang'
 );
-$unserializer = &new XML_Unserializer(array('keyAttribute' => $keyAttr));
+$unserializer = new XML_Unserializer(array('keyAttribute' => $keyAttr));
 if (PEAR::isError($status = $unserializer->unserialize($xml_file, true))) {
     exit("FAILED : " .  $status->getMessage() . "\n");
 } else {

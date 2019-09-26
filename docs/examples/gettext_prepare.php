@@ -4,7 +4,7 @@ require_once 'System.php';
 require_once 'File/Gettext.php';
 require_once 'I18Nv2/Locale.php';
 
-$l = &new I18Nv2_Locale('en');
+$l = new I18Nv2_Locale('en');
 $g = &File_Gettext::factory('MO');
 
 $g->meta = array('Content-Type' => 'text/plain; charset=iso-8859-1');

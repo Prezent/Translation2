@@ -15,7 +15,7 @@ class TestOfAdminContainerMDB2 extends TestOfAdminContainerDB {
 
 if (!defined('TEST_RUNNING')) {
     define('TEST_RUNNING', true);
-    $test = &new TestOfAdminContainerMDB2();
+    $test = new TestOfAdminContainerMDB2();
     $test->run(new HtmlReporter());
 }
 ?>

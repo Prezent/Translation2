@@ -23,7 +23,7 @@ class TestOfAdminContainerGettextMO extends TestOfAdminContainerGettextPO {
 
 if (!defined('TEST_RUNNING')) {
     define('TEST_RUNNING', true);
-    $test = &new TestOfAdminContainerGettextMO();
+    $test = new TestOfAdminContainerGettextMO();
     $test->run(new HtmlReporter());
 }
 ?>

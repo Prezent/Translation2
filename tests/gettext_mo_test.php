@@ -82,7 +82,7 @@ class TestOfGettextMO extends TestOfContainerDB {
 
 if (!defined('TEST_RUNNING')) {
     define('TEST_RUNNING', true);
-    $test = &new TestOfGettextMO();
+    $test = new TestOfGettextMO();
     $test->run(new HtmlReporter());
 }
 ?>

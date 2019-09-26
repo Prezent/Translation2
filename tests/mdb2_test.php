@@ -15,7 +15,7 @@ class TestOfContainerMDB2 extends TestOfContainerDB {
 
 if (!defined('TEST_RUNNING')) {
     define('TEST_RUNNING', true);
-    $test = &new TestOfContainerMDB2();
+    $test = new TestOfContainerMDB2();
     $test->run(new HtmlReporter());
 }
 ?>
